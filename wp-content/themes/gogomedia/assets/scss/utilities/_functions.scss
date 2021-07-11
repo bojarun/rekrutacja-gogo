@@ -1,0 +1,11 @@
+    /**
+     * subsection: Functions
+     * ----------------------------------------
+     *
+     * how to use:
+     * background: url(path-to-assets("images/image.svg")) 50% 50% / 14px no-repeat;
+     */
+
+    @function path-to-assets($file) {
+        @return '../' + $file;
+    }

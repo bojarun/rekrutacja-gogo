@@ -1,0 +1,15 @@
+.heading--primary{
+  @include heading--primary;
+
+  + p{
+    @include paragraph--primary;
+  }
+}
+
+.heading--secondary{
+  @include heading--secondary;
+}
+
+.heading--tertiary{
+  @include heading--tertiary;
+}

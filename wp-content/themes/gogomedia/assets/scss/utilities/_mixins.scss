@@ -1,0 +1,47 @@
+@mixin font($font-weight,$font-size,$line-height:normal){
+    font-weight:    $font-weight;
+    font-size:      $font-size;
+    line-height:    $line-height;
+}
+@mixin heading--primary{
+    display: block;
+    position: relative;
+    padding: 0 10px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    @include font(300, 40px, 52px);
+}
+@mixin heading--secondary{
+    display: block;
+    position: relative;
+    padding: 0 10px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    @include font(300, 30px, 30px);
+}
+@mixin heading--tertiary{
+    display: block;
+    position: relative;
+    padding: 0 10px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    @include font(300, 20px, 23.7px);
+}
+@mixin paragraph--primary{
+    display: block;
+    position: relative;
+    padding: 0 10px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    @include font(300, 20px, 32px);
+}
+@mixin paragraph--secondary{
+    display: block;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 12px;
+    @include font(300, 15px, 24px);
+
+    max-height: 72px;
+    overflow: hidden;
+}

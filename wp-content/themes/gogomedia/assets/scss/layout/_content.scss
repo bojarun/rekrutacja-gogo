@@ -1,0 +1,11 @@
+.container{
+  display: block;
+  position: relative;
+  max-width: $container-width;
+  padding: 0 $container-padding;
+  margin: 0 auto;
+}
+.section{
+  display: block;
+  position: relative;
+}

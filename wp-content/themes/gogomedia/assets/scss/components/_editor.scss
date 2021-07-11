@@ -1,0 +1,59 @@
+// EDITOR STYLES
+.editor-styles-wrapper {
+  font-family: $font-primary !important;
+
+  .editor-post-title{
+    display: none;
+  }
+
+  .wp-block{
+    width: 100%;
+    max-width: 100%;
+
+    &.slider{
+      max-width: $slider-width;
+      border: dashed 1px rgba(0,0,0,0.25);
+
+      > .wp-block-group__inner-container{
+        display: flex;
+        flex-wrap: wrap;
+
+        div[data-title="Slider Item"], .block-list-appender {
+          width: calc(100% / 3);
+          height: 228px;
+          margin: 10px 0;
+
+          h3{
+            @include heading--tertiary;
+          }
+          p{
+            @include paragraph--secondary;
+          }
+          img{
+            display: block;
+            position: relative;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+
+  .section{
+    .heading--primary{
+      @include heading--primary;
+
+      + p{
+        @include paragraph--primary;
+      }
+    }
+
+    &--testimonials{
+      .heading--primary{
+        + p{
+          margin-bottom: 36px;
+        }
+      }
+    }
+  }
+}

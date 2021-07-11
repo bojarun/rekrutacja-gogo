@@ -1,0 +1,26 @@
+.box{
+  display: block;
+  position: relative;
+  width: 300px;
+  height: 228px;
+  padding: 25px 15px 15px 15px;
+  margin: 0 10px;
+  background: white;
+
+  @media (min-width: 768px) {
+    width: 332px;
+    padding: 36px 27px 15px 27px;
+  }
+
+  h3{
+    @include heading--tertiary;
+  }
+  p{
+    @include paragraph--secondary;
+  }
+  img{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+}

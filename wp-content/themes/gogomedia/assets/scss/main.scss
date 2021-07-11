@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/**
+ * Stylesheet
+ *
+ * project:     GOGO Media Rekrutacja
+ * date:        2021-07-11
+ * author:      Konrad Bojarun
+ * link:        http://bojarun.appix.pl
+ *
+ */
+
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/functions";
+
+@import "base/reset";
+@import "base/fonts";
+@import "base/typography";
+
+@import "layout/header";
+@import "layout/content";
+
+@import "themes/default";
+
+@import "components/logo";
+@import "components/box";
+@import "components/slider";
+@import "components/editor";
+
+@import "pages/page-home";

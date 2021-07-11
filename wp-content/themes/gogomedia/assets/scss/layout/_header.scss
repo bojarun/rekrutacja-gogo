@@ -1,0 +1,10 @@
+#header{
+  display: block;
+  position: relative;
+  padding: 15px 0;
+  background: white;
+
+  @media (min-width: 768px) {
+    padding: 23px 0;
+  }
+}
