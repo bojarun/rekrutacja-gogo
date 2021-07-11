@@ -5,4 +5,4 @@ Folders structure:
 /wp-content/themes/gogomedia - theme files
 
 login do panelu: admin
-has≥o do panelu: admin
+has≈Ço do panelu: admin
